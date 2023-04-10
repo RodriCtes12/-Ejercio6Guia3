@@ -38,8 +38,11 @@ public class Ejercio6Guia3 {
            
             num1= entrada.nextInt();
             num2=entrada.nextInt();
-           while  (!salir){
-            System.out.println("Selecciona una opcion");
+          
+            while  (!salir){
+                System.out.println("------------------------------");
+           
+                System.out.println("Selecciona una opcion");
             System.out.println("1)sumar");
             System.out.println("2)resta");
             System.out.println("3)multiplica");
@@ -69,6 +72,7 @@ public class Ejercio6Guia3 {
                      case 4:
                      
                     System.out.println("el resultado de tu division es " + dividir(num1,num2));
+                     break; 
                      case 5 :
                          System.out.println("¿Estas seguro que deseas salir? (S/N)");
                          String respuesta = entrada.next();
